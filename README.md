@@ -2,8 +2,8 @@
 
 Small Angular App that demonstrates unit testing using Karma and Jasmine. 
 
-##To run
+# To run
 
-##npm install 
-##npm test <-- For Karma Test
-##Navigate to test.html to see Jasmine
+#  npm install 
+# npm test <-- For Karma Test
+# Navigate to test.html to see Jasmine
