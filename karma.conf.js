@@ -1,6 +1,6 @@
 module.exports = function (config) {
   config.set({
-    browsers: ['Safari'],
+    browsers: ['Safari','Chrome','Firefox'],
     frameworks: ['jasmine'],
     reporters: ['dots'],
     singleRun: true,
