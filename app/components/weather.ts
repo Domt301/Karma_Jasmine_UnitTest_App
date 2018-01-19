@@ -24,7 +24,7 @@ export class WeatherComponent {
   constructor(weatherService: WeatherService) {
     this.searchInput = new FormControl('');
     this.searchInput.valueChanges
-        .debounceTime(300)
+        .debounceTime(3000)
         .switchMap((place: string) => weatherService.getWeather(place))
         .subscribe(
             (weather: WeatherResult) => this.weather = weather,
